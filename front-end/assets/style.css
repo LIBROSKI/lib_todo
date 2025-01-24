@@ -1,0 +1,441 @@
+:root[data-theme="light"] {
+    --text-50: #f1f5f0;
+    --text-100: #e4ebe0;
+    --text-200: #c9d6c2;
+    --text-300: #adc2a3;
+    --text-400: #92ad85;
+    --text-500: #779966;
+    --text-600: #5f7a52;
+    --text-700: #475c3d;
+    --text-800: #303d29;
+    --text-900: #181f14;
+    --text-950: #0c0f0a;
+
+    --background-50: #f1f5f0;
+    --background-100: #e4ebe0;
+    --background-200: #c9d6c2;
+    --background-300: #adc2a3;
+    --background-400: #92ad85;
+    --background-500: #779966;
+    --background-600: #5f7a52;
+    --background-700: #475c3d;
+    --background-800: #303d29;
+    --background-900: #181f14;
+    --background-950: #0c0f0a;
+
+    --primary-50: #f2f5f0;
+    --primary-100: #e4ebe0;
+    --primary-200: #cad6c2;
+    --primary-300: #afc2a3;
+    --primary-400: #95ad85;
+    --primary-500: #7a9966;
+    --primary-600: #627a52;
+    --primary-700: #495c3d;
+    --primary-800: #313d29;
+    --primary-900: #181f14;
+    --primary-950: #0c0f0a;
+
+    --secondary-50: #f0f5f3;
+    --secondary-100: #e0ebe7;
+    --secondary-200: #c2d6cf;
+    --secondary-300: #a3c2b7;
+    --secondary-400: #85ad9e;
+    --secondary-500: #669986;
+    --secondary-600: #527a6b;
+    --secondary-700: #3d5c51;
+    --secondary-800: #293d36;
+    --secondary-900: #141f1b;
+    --secondary-950: #0a0f0d;
+
+    --accent-50: #f0f4f5;
+    --accent-100: #e0eaeb;
+    --accent-200: #c2d4d6;
+    --accent-300: #a3bfc2;
+    --accent-400: #85a9ad;
+    --accent-500: #669499;
+    --accent-600: #52767a;
+    --accent-700: #3d595c;
+    --accent-800: #293b3d;
+    --accent-900: #141e1f;
+    --accent-950: #0a0f0f;
+
+}
+
+:root[data-theme="dark"] {
+    --text-50: #0c0f0a;
+    --text-100: #181f14;
+    --text-200: #303d29;
+    --text-300: #475c3d;
+    --text-400: #5f7a52;
+    --text-500: #779966;
+    --text-600: #92ad85;
+    --text-700: #adc2a3;
+    --text-800: #c9d6c2;
+    --text-900: #e4ebe0;
+    --text-950: #f1f5f0;
+
+    --background-50: #0c0f0a;
+    --background-100: #181f14;
+    --background-200: #303d29;
+    --background-300: #475c3d;
+    --background-400: #5f7a52;
+    --background-500: #779966;
+    --background-600: #92ad85;
+    --background-700: #adc2a3;
+    --background-800: #c9d6c2;
+    --background-900: #e4ebe0;
+    --background-950: #f1f5f0;
+
+    --primary-50: #0c0f0a;
+    --primary-100: #181f14;
+    --primary-200: #313d29;
+    --primary-300: #495c3d;
+    --primary-400: #627a52;
+    --primary-500: #7a9966;
+    --primary-600: #95ad85;
+    --primary-700: #afc2a3;
+    --primary-800: #cad6c2;
+    --primary-900: #e4ebe0;
+    --primary-950: #f2f5f0;
+
+    --secondary-50: #0a0f0d;
+    --secondary-100: #141f1b;
+    --secondary-200: #293d36;
+    --secondary-300: #3d5c51;
+    --secondary-400: #527a6b;
+    --secondary-500: #669986;
+    --secondary-600: #85ad9e;
+    --secondary-700: #a3c2b7;
+    --secondary-800: #c2d6cf;
+    --secondary-900: #e0ebe7;
+    --secondary-950: #f0f5f3;
+
+    --accent-50: #0a0f0f;
+    --accent-100: #141e1f;
+    --accent-200: #293b3d;
+    --accent-300: #3d595c;
+    --accent-400: #52767a;
+    --accent-500: #669499;
+    --accent-600: #85a9ad;
+    --accent-700: #a3bfc2;
+    --accent-800: #c2d4d6;
+    --accent-900: #e0eaeb;
+    --accent-950: #f0f4f5;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-50: #f1f5f0;
+        --text-100: #e4ebe0;
+        --text-200: #c9d6c2;
+        --text-300: #adc2a3;
+        --text-400: #92ad85;
+        --text-500: #779966;
+        --text-600: #5f7a52;
+        --text-700: #475c3d;
+        --text-800: #303d29;
+        --text-900: #181f14;
+        --text-950: #0c0f0a;
+
+        --background-50: #f1f5f0;
+        --background-100: #e4ebe0;
+        --background-200: #c9d6c2;
+        --background-300: #adc2a3;
+        --background-400: #92ad85;
+        --background-500: #779966;
+        --background-600: #5f7a52;
+        --background-700: #475c3d;
+        --background-800: #303d29;
+        --background-900: #181f14;
+        --background-950: #0c0f0a;
+
+        --primary-50: #f2f5f0;
+        --primary-100: #e4ebe0;
+        --primary-200: #cad6c2;
+        --primary-300: #afc2a3;
+        --primary-400: #95ad85;
+        --primary-500: #7a9966;
+        --primary-600: #627a52;
+        --primary-700: #495c3d;
+        --primary-800: #313d29;
+        --primary-900: #181f14;
+        --primary-950: #0c0f0a;
+
+        --secondary-50: #f0f5f3;
+        --secondary-100: #e0ebe7;
+        --secondary-200: #c2d6cf;
+        --secondary-300: #a3c2b7;
+        --secondary-400: #85ad9e;
+        --secondary-500: #669986;
+        --secondary-600: #527a6b;
+        --secondary-700: #3d5c51;
+        --secondary-800: #293d36;
+        --secondary-900: #141f1b;
+        --secondary-950: #0a0f0d;
+
+        --accent-50: #f0f4f5;
+        --accent-100: #e0eaeb;
+        --accent-200: #c2d4d6;
+        --accent-300: #a3bfc2;
+        --accent-400: #85a9ad;
+        --accent-500: #669499;
+        --accent-600: #52767a;
+        --accent-700: #3d595c;
+        --accent-800: #293b3d;
+        --accent-900: #141e1f;
+        --accent-950: #0a0f0f;
+
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-50: #0c0f0a;
+        --text-100: #181f14;
+        --text-200: #303d29;
+        --text-300: #475c3d;
+        --text-400: #5f7a52;
+        --text-500: #779966;
+        --text-600: #92ad85;
+        --text-700: #adc2a3;
+        --text-800: #c9d6c2;
+        --text-900: #e4ebe0;
+        --text-950: #f1f5f0;
+
+        --background-50: #0c0f0a;
+        --background-100: #181f14;
+        --background-200: #303d29;
+        --background-300: #475c3d;
+        --background-400: #5f7a52;
+        --background-500: #779966;
+        --background-600: #92ad85;
+        --background-700: #adc2a3;
+        --background-800: #c9d6c2;
+        --background-900: #e4ebe0;
+        --background-950: #f1f5f0;
+
+        --primary-50: #0c0f0a;
+        --primary-100: #181f14;
+        --primary-200: #313d29;
+        --primary-300: #495c3d;
+        --primary-400: #627a52;
+        --primary-500: #7a9966;
+        --primary-600: #95ad85;
+        --primary-700: #afc2a3;
+        --primary-800: #cad6c2;
+        --primary-900: #e4ebe0;
+        --primary-950: #f2f5f0;
+
+        --secondary-50: #0a0f0d;
+        --secondary-100: #141f1b;
+        --secondary-200: #293d36;
+        --secondary-300: #3d5c51;
+        --secondary-400: #527a6b;
+        --secondary-500: #669986;
+        --secondary-600: #85ad9e;
+        --secondary-700: #a3c2b7;
+        --secondary-800: #c2d6cf;
+        --secondary-900: #e0ebe7;
+        --secondary-950: #f0f5f3;
+
+        --accent-50: #0a0f0f;
+        --accent-100: #141e1f;
+        --accent-200: #293b3d;
+        --accent-300: #3d595c;
+        --accent-400: #52767a;
+        --accent-500: #669499;
+        --accent-600: #85a9ad;
+        --accent-700: #a3bfc2;
+        --accent-800: #c2d4d6;
+        --accent-900: #e0eaeb;
+        --accent-950: #f0f4f5;
+    }
+}
+
+/* Keep existing color variables... */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-100);
+    color: var(--text-900);
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: var(--primary-500);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-500);
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.todo-input-section {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.8rem;
+    border: 2px solid var(--primary-200);
+    border-radius: 4px;
+    background: var(--background-50);
+    color: var(--text-900);
+}
+
+button {
+    padding: 0.8rem 1.2rem;
+    background-color: var(--primary-500);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--primary-600);
+}
+
+.filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filter-btn {
+    background-color: var(--secondary-200);
+    color: var(--text-900);
+}
+
+.filter-btn.active {
+    background-color: var(--secondary-500);
+    color: white;
+}
+
+.todo-list {
+    margin-bottom: 1rem;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--background-50);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.todo-item:hover {
+    transform: translateX(5px);
+}
+
+.todo-item.completed {
+    opacity: 0.7;
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+}
+
+.todo-checkbox {
+    margin-right: 1rem;
+}
+
+.todo-text {
+    flex: 1;
+}
+
+.delete-btn {
+    background-color: var(--accent-500);
+    padding: 0.4rem 0.8rem;
+}
+
+.todo-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 2px solid var(--background-200);
+}
+
+#taskCount {
+    color: var(--text-600);
+}
+
+#clearCompleted {
+    background-color: var(--accent-400);
+}
+
+/* Add to existing CSS */
+
+.project-section {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.project-select {
+    flex: 1;
+    padding: 0.8rem;
+    border: 2px solid var(--primary-200);
+    border-radius: 4px;
+    background: var(--background-50);
+    color: var(--text-900);
+}
+
+.project-btn {
+    padding: 0.8rem;
+    min-width: 44px;
+}
+
+.project-btn.danger {
+    background-color: var(--accent-500);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-500);
+}
+
+.error {
+    color: var(--accent-500);
+    padding: 1rem;
+    text-align: center;
+    background: var(--accent-100);
+    border-radius: 4px;
+    margin: 1rem 0;
+}
